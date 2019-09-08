@@ -70,7 +70,7 @@ $(document).ready(function() {
 
     $.ajax({
       url: requestUrl + $.param({
-        Id: Id
+        id: id
       }),
       method: 'DELETE',
       success: function() {
