@@ -70,7 +70,7 @@ $(document).ready(function() {
 
     $.ajax({
       url: requestUrl + $.param({
-        id: id
+        taskid: id
       }),
       method: 'DELETE',
       success: function() {
