@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = '   https://radiant-coast-80378.herokuapp.com//v1/';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+  const apiRoot = 'https://radiant-coast-80378.herokuapp.com/v1/';
+  const trelloApiRoot = 'https://radiant-coast-80378.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
